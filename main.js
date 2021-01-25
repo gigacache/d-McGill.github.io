@@ -1,15 +1,19 @@
 
 
-let project document.getElementById('projects');
-let commercial document.getElementById('commercial');
-let research document.getElementById('research');
-let fun document.getElementById('fun');
+let project = document.getElementById('projects');
+let commercial =  document.getElementById('commercial');
 
 
-project.addEventListener('click' , clickFunction);
+let wordpressCard = document.getElementById('wordpressCard');
+let lrcCard = document.getElementById('lrcCard');
 
+project.addEventListener('click' , allProjects);
+commercial.addEventListener('click', commercialProjects);
 
+function allProjects(){
 
-function clickFunction(){
-  
+}
+
+function commercialProjects(){
+
 }

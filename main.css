@@ -24,3 +24,7 @@ footer {
 p{
   line-height: 1.9em;
 }
+
+a{
+  text-decoration: none;
+}
