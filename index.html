@@ -7,40 +7,63 @@
 </head>
 <body>
   <div class="container" style="padding:2%;">
-    <div class="row row-cols-auto">
-      <div class="col" id="projects"><a href="#All Project"> All Projects</a></div>
-      <div class="col" id="commercial"><a href="#Commercial Project"> Commercial </a></div>
-      <div class="col" id="research"><a href="#research Project"> Research Project</a></div>
-
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">Commercial</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Personal</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Research</button>
     </div>
   </div>
   <div class="container-fluid">
+    <!-- Tab -->
+    <div id="London" class="tabcontent">
+      <h3>Commerical</h3>
+      <div class="row" style="text-align:center;">
+        <div class="col-sm" id="wordpressCard">
+          <a href="wordpressTheme.html">
+          <img src="img/theme.png" alt="" class="cardImage">
+          <h5>WordPress Theme</h5>
+          </a>
+        </div>
+        <div class="col-sm" id="LrcCard">
+          <a href="wordpressTheme.html">
+          <img src="img/blog.png" alt="" class="cardImage">
+          <h5>WordPress Theme</h5>
+          </a>
+        </div>
+      <div class="col-sm">
+        <a href="wordpressTheme.html">
+        <img src="img/aba.png" alt="" class="cardImage">
+        <h5>WordPress Theme</h5>
+        </a>
+      </div>
+      <div class="col-sm">
+        <a href="wordpressTheme.html">
+        <img src="img/lrc.png" alt="" class="cardImage">
+        <h5>WordPress Theme</h5>
+        </a>
+      </div>
+     </div>
+   </div>
+  <!-- Tab -->
+  <div id="Paris" class="tabcontent">
+    <h3>Personal</h3>
     <div class="row" style="text-align:center;">
-
-     <div class="col-sm" id="wordpressCard">
+      <div class="col-sm" id="wordpressCard">
        <a href="wordpressTheme.html">
        <img src="img/theme.png" alt="" class="cardImage">
        <h5>WordPress Theme</h5>
        </a>
      </div>
-     <div class="col-sm" id="LrcCard">
-       <a href="wordpressTheme.html">
-       <img src="img/blog.png" alt="" class="cardImage">
-       <h5>WordPress Theme</h5>
-       </a>
-     </div>
-   <div class="col-sm">
-     <a href="wordpressTheme.html">
-     <img src="img/aba.png" alt="" class="cardImage">
-     <h5>WordPress Theme</h5>
-     </a>
    </div>
-   <div class="col-sm">
-     <a href="wordpressTheme.html">
-     <img src="img/lrc.png" alt="" class="cardImage">
-     <h5>WordPress Theme</h5>
-     </a>
-   </div>
+  </div>
+
+  <div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+  </div>
+    <div class="row" style="text-align:center;">
+
+
  </div>
  </div>
 <script src="main.js"></script>
