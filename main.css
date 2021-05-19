@@ -2,11 +2,17 @@
   width:100%;
 
 }
-
+.spacetop{
+  margin-top:10%;
+}
 .cardImage{
-  width:400px;
+  margin:2% 0;
+  width:auto;
+  height:80vh;
 
 }
+
+
 
 .mainImage{
   width:100%;
@@ -41,6 +47,7 @@ p{
 a{
   text-decoration: none;
 }
+
 
 
 /* Style the tab */
