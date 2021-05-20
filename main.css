@@ -2,6 +2,18 @@
   width:100%;
 
 }
+
+
+body{
+  background-color: #000;
+}
+
+h1,h2, h3 , h4 , p{
+  color:#fff;
+}
+
+
+
 .spacetop{
   margin-top:10%;
 }
@@ -13,18 +25,11 @@
 }
 
 
-
-.mainImage{
-  width:100%;
-  border-radius: 20%;
-  text-align: center;
-
-}
-
 nav{
   text-align: right;
   padding:20px 20px 0 0;
   margin:0px;
+  color:#fff;
 }
 
 
@@ -64,16 +69,18 @@ a{
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  color:#fff;
+  font-weight: 900;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  color: #008080;
+  color: #fff;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  color: #008080;
+  color: #fff;
 }
 
 /* Style the tab content */
