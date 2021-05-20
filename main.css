@@ -12,20 +12,20 @@ h1,h2, h3 , h4 , p{
   color:#fff;
 }
 
-
-
 .spacetop{
   margin-top:10%;
 }
 .cardImage{
-  margin:2% 0;
+  margin:5% 0;
   width:auto;
   height:80vh;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .cardImage:hover{
-opacity: 0.25;
+opacity: 0.23;
+transition: .5s ease;
 }
 
 
