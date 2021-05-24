@@ -3,8 +3,15 @@
 
 }
 
+strong{
+  padding:2%;
+  color:#fff;
+  font-size: 20pt;
+}
+
 #hoverContent {
     display:none;
+
 }
 #dev:hover #hoverContent {
     display:block;
@@ -36,9 +43,25 @@ body,.card , .card-body, li.list-group-item{
 
 .pd{padding:2% 3%;}
 
-h1,h2, h3 , h4 , p, .card-title{
+h1,h2, h3 , h4 , p, .card-title , h5{
   color:#fff;
+
 }
+
+.modal-dialog {
+    max-width: 80% !important;}
+
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #000;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: .3rem;
+        outline: 0;}
 
 .btn-lg{
 width:100%;
