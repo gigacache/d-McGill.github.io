@@ -49,27 +49,22 @@ h1,h2, h3 , h4 , p, .card-title , h5{
 }
 
 .modal-dialog {
-    max-width: 80% !important;}
+    max-width: 83% !important;
+  border:unset;}
 
     .modal-content {
         position: relative;
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        pointer-events: auto;
-        background-color: #000;
-        background-clip: padding-box;
-        border: 1px solid rgba(0,0,0,.2);
-        border-radius: .3rem;
-        outline: 0;}
+        background-color: rgba(0,0,0,0.5);
+        border: unset;
+        text-align: left;
+      }
+
 
 .btn-lg{
 width:100%;
 }
 
-.spacetop{
-  margin-top:5%;
-}
 .cardImage{
   margin:2% 0;
   width:auto;
