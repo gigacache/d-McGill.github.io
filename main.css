@@ -59,6 +59,18 @@ h1,h2, h3 , h4 , p, .card-title , h5{
         border: unset;
         text-align: left;
       }
+.mainLogo{
+  float:left;
+  width:150px;
+  margin:0 2%;
+}
+
+.footLogo{
+  float:right;
+  width:150px;
+  margin:0 2%;
+}
+
 
 
 .btn-lg{
