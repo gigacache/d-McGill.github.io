@@ -79,8 +79,8 @@ width:100%;
 
 .cardImage{
   margin:2% 0;
-  width:auto;
-  height:80vh;
+  width:100%;
+  height:auto;
   border-radius: 15px;
   overflow: hidden;
 }
