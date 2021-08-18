@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="main.css">
 <title></title>
 </head>
-<body>
+<body onload=typeWriter();>
   <nav class="tab">
     <img src="./img/headLogo.png" alt="" class="mainLogo">
       <button class="tablinks" onclick="openCity(event, 'About')">
@@ -41,11 +41,12 @@
       <div id="About" class="tabcontent" style="display:block;">
         <div class="row">
         <div class="col-xl-7" style="text-align: center; padding:2%;">
+          <div class="heart">
           <img src="./img/main.svg" alt="" class="mainImage">
+          </div>
         </div>
         <div class="col-xl-5 my-5">
-          <h1>Ready To Launch</h1>
-          <p>Currently studying BSc (Hons) Software Engineering at Manchester Metropolitan University. Passionate and hard working with a creative twist, looking for an opportunity to develop current skills and grow as an individual in the technology industry. Sociable personality and a keen eye for detail, an effective team player. Willingness to learn and will always take on board feedback to progress. Also I love to eat pizza and skateboard.</p>
+          <p id="demo"></p>
         <div class="row">
           <h4>Languages</h4>
             <br/>
