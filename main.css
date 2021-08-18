@@ -77,21 +77,23 @@ h1,h2, h3 , h4 , p, .card-title , h5{
 }
 
 
-
 .btn-lg{
 width:100%;
 }
 
 .cardImage{
-  margin:2% 0;
   width:100%;
+  display: inline-block;
+  float:right;
   height:auto;
-  border-radius: 15px;
   overflow: hidden;
+  background-attachment: fixed;
+
 }
 
 .cardImage:hover{
 opacity: 0.23;
+background-color: #000;
 transition: .5s ease;
 }
 
