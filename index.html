@@ -9,45 +9,69 @@
 <title></title>
 </head>
 <body>
-  <div class="row aba" type="button" data-toggle="modal" data-target="#exampleModal"></div>
-  <div class="row blog"></div>
-
-
-  <!-- ABA Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Agnes Beauty Atelier - Company Website</h5>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row hscroll">
+            <img src="img/ABASalon.png" alt="website_Image" class="largeImage"/>
+          </div>
+          <div class="row my-5 mx-5">
+            <div class="col-md-8">
+              <h2>Overview</h2>
+              <p>Based in Cheshire, Agnes Beauty Atelier offers bespoke beauty services from permanent makeup to eyelash extensions and eyebrow treatments.</p>
+              </div>
+              <div class="col-md-4">
+                <div class="row">
+                <h3>Technology</h3>
+                <img src="img/wordpress.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/html.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/css.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/php.svg" alt="code_Image" class="smallLogo"/>
+              </div>
+              <div class="row">
+              <h3>Technology</h3>
+              <img src="img/wordpress.svg" alt="code_Image" class="smallLogo"/>
+              <img src="img/html.svg" alt="code_Image" class="smallLogo"/>
+              <img src="img/css.svg" alt="code_Image" class="smallLogo"/>
+              <img src="img/php.svg" alt="code_Image" class="smallLogo"/>
+            </div>
+            </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <h3>Overview</h3>
-          <p>Based in Cheshire, Agnes Beauty Atelier offers bespoke beauty services from permanent makeup to eyelash extensions and eyebrow treatments. After receiving the branding pack from the client, I developed a minimal and clean design to fit in with the brand. The client wanted a light and to the point design so clients could effortlessly find information without clicking through numerous pages. Although, at the beginning the client was not certain on how the website should look, I      created different mock-ups of websites using different designs to narrow down the options and see which one was the best for the Beauty Salon. Additionally, responsiveness was very important as user ability was a top priority. This led to altering some design features on different screen sizes and devices. For example, making buttons larger, reducing image sizing and layout padding. On completion of the project, I received excellent feedback and fulfilled the client’s brief and expectations. This led to additional work of creating informative graphics for the client’s Social Media channels such as Instagram. As engagement and presence via Social Media is key for small business, I regularly create content on a weekly basis to ensure content is being uploaded on the client’s website daily.
-          </p>
-          <h4>Lange and frameworks used</h4>
-          <img src="img/html.svg" alt="code" class="smallImage"/>
-          <img src="img/css.svg" alt="code" class="smallImage"/>
-          <img src="img/mysql.svg" alt="code" class="smallImage"/>
-          <img src="img/php.svg" alt="code" class="smallImage"/>
-          <img src="img/wordpress.svg" alt="code" class="smallImage"/>
-          <h4>FeedBack</h4>
-          <p>“Dan has exceeded my expectations and helped me to bring my vision to life. As I was quite indecisive and wasn’t sure on which direction to go into, Dan was extremely helpful in creating various mock-up projects of websites and different styles to help me decide on the best option for my ABA Beauty Salon. I felt very comfortable with the whole process and felt like everything was explained to me clearly in how to log into the website and how to gain access. I am so pleased with how the website has turned out, and very impressed with the level of skill Dan has portrayed. As well as designing a website Dan has also been creating a lot of different kind of graphics that I can use for my Social Media. These graphics range from informative to descriptive and they definitely bring a professional image to my ABA brand image! Even when I am running tight for time and need content created on the same day or the following day, Dan fulfils these time frames and always delivers his work on time. Dan is a very creative individual who is very passionate about the work he creates, and I would definitely recommend him and his expertise. The level of knowledge and professionalism he displays whilst only being a Second-Year student speaks volumes about him. ”
-          </p>
+        <div class="carousel-item">
+          <div class="row hscroll">
+          <img src="img/Blog.png" alt="website_Image" class="largeImage"/>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="row my-3">
+              <div class="col-md-8">
+                <h2>Overview</h2>
+                <p>Based in Cheshire, Agnes Beauty Atelier offers bespoke beauty services from permanent makeup to eyelash extensions and eyebrow treatments.</p>
+              </div>
+              <div class="col-md-4">
+                <h3>Technology</h3>
+                <img src="img/wordpress.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/html.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/css.svg" alt="code_Image" class="smallLogo"/>
+                <img src="img/php.svg" alt="code_Image" class="smallLogo"/>
+              </div>
+            </div>
         </div>
-      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </div>
 
-
-
-
-
-
-
-  <script src="main.js"></script>
+<script src="main.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
