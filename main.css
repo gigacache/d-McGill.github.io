@@ -16,7 +16,7 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height:500px;
+  height:90vh;
   margin:5%;
   border-radius: 20px;
 }
@@ -27,7 +27,7 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height:500px;
+  height:90vh;
   margin:5%;
   border-radius: 20px;
 }
@@ -45,21 +45,19 @@ p.text {
     max-width:100% !important;
     position: relative;
     width: auto;
-    margin:0 3rem;
+    margin:5%;
     pointer-events: none;
-
-    border-radius: 20px;
 }
 
 
 .modal-content {
-
       border: none;
+      border-radius: 20px 20px 0 0;
 }
 
 .modal {
     position: fixed;
-    top: 50%;
+    top: 0;
     left: 0;
     z-index: 1050;
     display: none;
@@ -67,4 +65,10 @@ p.text {
     height: 100%;
     overflow: hidden;
     outline: 0;
+}
+
+.smallImage{
+  width:70px;
+  height:auto;
+  margin:2%;
 }
