@@ -25,6 +25,10 @@ p{
    overflow:scroll;
 }
 
+.rotate{
+   transform: rotate(10deg); /* Equal to rotateZ(45deg) */
+}
+
 .carousel-indicators li {
     box-sizing: content-box;
     flex: 0 1 auto;
