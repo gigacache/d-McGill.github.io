@@ -23,13 +23,16 @@ p{
 .hscroll{
    height:500px;
    overflow:scroll;
+   background-color: #000;
 }
 
-.hscrollMain {
-    height: 500px;
-    overflow-y: scroll;
-    width: 100%;
-    overflow-x: hidden;}
+#intro{
+  padding:20%;
+  color:GREEN;
+  font-size: 20pt;
+  font-family: monospace;
+}
+
 
 .rotate{
  transform: rotate(40deg);
