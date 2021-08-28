@@ -27,10 +27,12 @@ p{
 }
 
 #intro{
-  padding:20%;
+  margin:20% 5%;
   color:GREEN;
   font-size: 20pt;
   font-family: monospace;
+  position: absolute;
+  color:#fff;
 }
 
 
