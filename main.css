@@ -20,6 +20,10 @@ p{
   height:auto;
 }
 
+.mainImage{
+  width:100%;
+
+}
 
 .largeImage{
   width:100%;
@@ -110,4 +114,9 @@ padding:5%;}
   font-size: 2.4em;
   color:#fff;
   text-align: center;
+}
+
+.cardWrapp{
+  height:200px;
+  overflow: scroll;
 }
