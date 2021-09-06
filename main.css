@@ -117,6 +117,19 @@ padding:5%;}
 }
 
 .cardWrapp{
-  height:200px;
+  height:300px;
   overflow: scroll;
+  display: inline-block;
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+
+
+.gridImage{
+  width:100%;
+  height:auto;
+  margin:0px;
+  display: inline-block;
+  padding:0px;
 }
