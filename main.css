@@ -41,11 +41,25 @@ svg.bi.bi-eye {
   border:none;
 }
 #nav-contact-tab{
-  background-color:#d1bd08;
+  background-color:#e00000;
   border:none;
 }
 
 
+.projectsMod {
+}
+
+.projectsTitle{
+
+}
+
+.projectHeader{
+      background-color:#ff00e1;
+      border: none;
+}
+.modal-content{
+  border: none;
+}
 
 
 
@@ -57,24 +71,25 @@ svg.bi.bi-eye {
 
 
 button.close {
-    background-color: #15202B;
+    background-color:#ff00e1;
     border: none;
-    font-size: 35pt;
+    font-size: 50pt;
     color:#fff;
 }
 
-.modal-header{
-      background-color: #15202B;
-      border: none;
-      color:#fff;
-}
+
 
 .card-header {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    background-color: #15202B;
-    border-bottom: none;
+    border-bottom: 1px solid #eee;
+}
 
+.projectBody{
+  border-radius: 0 0 20px 20px;
+  margin:0% 2% 2% 2%;
+  padding: 1% 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .githubLogo{
@@ -123,7 +138,7 @@ button.close {
 
 .btn-link {
     font-weight: 400;
-    color: white;}
+    color:#ff00e1;}
 
 .card {
     position: relative;
@@ -134,15 +149,13 @@ button.close {
     background-color: #fff;
     background-clip: border-box;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 20px;
 }
 
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem;
-    background:#192734;
-    color:#fff;
-    border:10px solid #15202B;
+    background:#fff;
 }
 
 
