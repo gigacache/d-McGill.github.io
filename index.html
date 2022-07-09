@@ -11,8 +11,8 @@
 <title></title>
 </head>
 <body class="tada animated">
-  <div class="text-center maxHeight">
-    <img src="img/html.svg" alt="code_Image" class="pic"/>
+  <div class="text-center maxHeight" >
+    <img src="img/html.svg" alt="code_Image" class="pic" data-anijs="if: click, do: rubberBand animated, to: .pic">
     <h1 class="">Daniel McGill</h1>
     <h2>BSc (Hons) Software Engineering Graduate<strong>1st Class</strong></h2>
   </div>
@@ -79,7 +79,7 @@
       <div class="col-sm-8 my-2">
         <nav class="text-center">
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="modal" data-target=".bd-example-modal-lg">Recent Projects</a>
+            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="modal" data-target=".bd-example-modal-lg" data-anijs="if: click, do: swing animated, to: .modal">Recent Projects</a>
             <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Contributions</a>
             <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Experience</a>
           </div>
@@ -89,7 +89,7 @@
             <div class="modal-content">
               <div class="modal-header projectHeader">
                 <h5 class="modal-title" id="exampleModalCenterTitle">Recent Projects`</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"  data-anijs="if: click, do: rotateOutDownRight animated, to: .modal">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
@@ -182,7 +182,7 @@
 <div id="logo">
   <a href="https://github.com/d-McGill">d-McGill</a>
 </div>
-
+<p class="doNotPress" data-anijs="if: click, do: hinge animated, to: body ">DO NOT PRESS THIS RED BAR</p>
   <script src="anijs-min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
