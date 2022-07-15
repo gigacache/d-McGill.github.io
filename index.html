@@ -1,4 +1,4 @@
-section<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,193 +16,96 @@ section<!DOCTYPE html>
     <img src="img/html.svg" alt="code_Image" class="pic" data-anijs="if: click, do: rubberBand animated, to: .pic">
     <h1 class="">Daniel McGill</h1>
     <h2>BSc (Hons) Software Engineering Graduate<strong>1st Class</strong></h2>
+    <p class="jobTitle">Junior Developer @ Ampersand</p>
   </div>
-  <div class="row">
-    <div class="col-sm-3"></div>
-      <div class="col-sm-6">
-        <div id="carouselExampleControls" class="carousel-fade" data-ride="carousel" data-interval="200">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col">
-                  <img src="img/html.svg" alt="code_Image" class="smallLogo"/>
-                </div>
-                <div class="col">
-                  <img src="img/css.svg" alt="code_Image" class="smallLogo"/>
-                </div>
-                <div class="col">
-                  <img src="img/js.svg" alt="code_Image" class="smallLogo" style="border-radius:50%"/>
-                </div>
-                <div class="col">
-                  <img src="img/php.svg" alt="code_Image" class="smallLogo"/>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col">
-                  <img src="img/java.svg" alt="code_Image" class="smallLogo"style="width:60px"/>
-                </div>
-                <div class="col">
-                  <img src="img/code.png" alt="code_Image" class="smallLogo" style="width:90px"/>
-                </div>
-                <div class="col">
-                  <img src="img/bootstrap.png" alt="code_Image" class="smallLogo"style="width:70px"/>
-                </div>
-                <div class="col">
-                  <img src="img/vue.png" alt="code_Image" class="smallLogo" style="width:45px; padding-top:15%;"/>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col">
-                  <img src="img/mysql.png" alt="code_Image" class="smallLogo" style="width:70px"/>
-                </div>
-                <div class="col">
-                  <img src="img/wordpress.png" alt="code_Image" class="smallLogo" style="width:90px"/>
-                </div>
-                <div class="col">
-                  <img src="img/firebase.png" alt="code_Image" class="smallLogo" style="width:90px"/>
-                </div>
-                <div class="col">
-                  <img src="img/git.png" alt="code_Image" class="smallLogo" style="width:70px"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3"></div>
-    </div>
     <div class="row">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-8 my-2">
         <nav class="text-center">
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="modal" data-target=".bd-example-modal-lg" data-anijs="if: click, do: swing animated, to: .modal">Recent Projects</a>
-            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Contributions</a>
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Experience</a>
-          </div>
+          <button type="button" class="btn btn-primary projects">Projects</button>
+          <button type="button" class="btn btn-primary journey">Journey</button>
         </nav>
-
-</div>
-
-  <div class="col-sm-2"></div>
-
-</div>
-
-</div>
+      </div>
+    </div>
 
 
 <div class="section">
   <div class="row px-5 py-5">
     <div class="col-sm-6">
       <div class="sticky-top float-left">
-        <div id="list" class="flex-column">
-          <a href="#item-1">Item 1</a>
-          <a href="#item-2">Item 2</a>
-          <a href="#item-3">Item 3</a>
-          <a href="#item-4">Item 4</a>
-        </div>
-        <img src="img/programming.svg" alt="code_Image" class="devImage"/>
+        <img src="img/programming.svg" alt="code_Image" class="devImage"   data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat">
       </div>
     </div>
     <div class="col-sm-6">
       <div data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-        <h4 id="item-1">Item 1</h4>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <h4 id="item-2">Item 2</h4>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+        <h1>Recent Projects</h1>
+        <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+          <div class="card-body">
+            <h4>Cardiomyopathy application</h4>
+            <p class="card-text">Data-sharing web application platform for cardiomyopathy data and information, University group work assessment. Developed in Vue.js and deployed with firebase.</div>
+        </div>
+        <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+          <div class="card-body">
+            <h4>Smart Booking application</h4>
+            <p class="card-text">Final year project, A smart booking system that optimises appointment slots built in php with the CodeIgniter framework.</div>
+        </div>
+        <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+          <div class="card-body">
+            <h4>Custom WordPress Theme</h4>
+            <p class="card-text">Custom WordPress theme build with PHP and HTML5.</div>
+        </div>
+        <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+          <div class="card-body">
+            <h4>Film API</h4>
+            <p class="card-text">Custom WordPress theme build with PHP and HTML5.</div>
+        </div>
+        <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+          <div class="card-body">
+            <h4>Tool management</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
 
-        <h4 id="item-3">Item 3</h4>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-        <h4 id="item-4">Item 4</h4>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" style="background-color:#192734;">
     <div class="row px-5 py-5">
       <div class="col-sm-6">
-        <div data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-          <h4 id="item-1">Item 1</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <h4 id="item-2">Item 2</h4>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
-          <h4 id="item-3">Item 3</h4>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
-          <h4 id="item-4">Item 4</h4>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
+          <h1>Dev jouney</h1>
+            <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+              <div class="card-body darkBackground">
+                <h4>Ampersand</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+              <div class="card-body darkBackground">
+                <h4>Freelance Developers</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+              <div class="card-body darkBackground">
+                <h4>Apprentice Developer</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
+              <div class="card-body darkBackground">
+                <h4>Full time Nerd</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </div>
-        </div>
         <div class="col-sm-6">
           <div class="sticky-top float-right">
-            <div id="list" class="flex-column">
-              <a href="#item-1">Item 1</a>
-              <a href="#item-2">Item 2</a>
-              <a href="#item-3">Item 3</a>
-              <a href="#item-4">Item 4</a>
-            </div>
-            <img src="img/openGit.svg" alt="code_Image" class="devImage"/>
+            <img src="img/openGit.svg" alt="code_Image" class="devImage" data-anijs="if: scroll, on: window, do: slideInRight animated, before: $scrollReveal repeat">>
           </div>
         </div>
       </div>
     </div>
-    <div class="projectSection">
-      <div class="row px-5 py-5">
-        <div class="col-sm-6">
-          <div class="sticky-top float-left">
-            <div id="list" class="flex-column">
-              <a href="#item-1">Item 1</a>
-              <a href="#item-2">Item 2</a>
-              <a href="#item-3">Item 3</a>
-              <a href="#item-4">Item 4</a>
-            </div>
-            <img src="img/team.svg" alt="code_Image" class="devImage"/>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-            <h4 id="item-1">Item 1</h4>
-              <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <h4 id="item-2">Item 2</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
-            <h4 id="item-3">Item 3</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
-            <h4 id="item-4">Item 4</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-
-            </div>
-          </div>
-        </div>
-      </div>
 
 <div id="git">
   <a href="https://github.com/d-McGill"><img src="./img/github.png"/ class="githubLogo"></a>
@@ -217,6 +120,6 @@ section<!DOCTYPE html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"></script>
-
+<script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
 </body>
 </html>
