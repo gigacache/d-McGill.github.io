@@ -74,9 +74,8 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: underline;
-  text-decoration-thickness: 5px;
+a .card:hover{
+  border:1px solid #fff;
 }
 
 
