@@ -22,15 +22,19 @@
   </div>
   <div class="titleSection">
     <div class="text-center maxHeight" >
-      <img src="img/html.svg" alt="code_Image" class="pic" data-anijs="if: click, do: rubberBand animated, to: .pic">
+      <img src="img/me.png" alt="code_Image" class="pic">
       <h1 data-anijs="if: scroll, on: window, do: bounce animated, before: $scrollReveal repeat">Daniel McGill</h1>
       <h2>BSc (Hons) Software Engineering Graduate<strong>1st Class</strong></h2>
       <p class="jobTitle" data-anijs="if: scroll, on: window, do: rubberBand animated, before: $scrollReveal repeat">Junior Developer @ Ampersand</p>
     </div>
       <div class="row">
           <nav class="text-center">
-            <button type="button" class="btn btn-primary projects" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Projects</button>
-            <button type="button" class="btn btn-primary journey" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: $scrollReveal repeat">Journey</button>
+            <a href="#projects">
+              <button type="button" class="btn btn-primary projects" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: $scrollReveal repeat">Projects</button>
+            </a>
+            <a href="#journey">
+              <button type="button" class="btn btn-primary journey" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: $scrollReveal repeat">Journey</button>
+            </a>
           </nav>
         </div>
       </div>
@@ -42,7 +46,7 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <div data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <div  id="projects" data-bs-spy="scroll" data-bs-target="#list" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
           <h1>Recent Projects</h1>
           <a href="https://github.com/d-McGill/cardioApp">
           <div class="card"  data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
@@ -85,23 +89,27 @@
   <div class="section" style="background-color:#192734;">
     <div class="row px-5 py-5">
       <div class="col-sm-6">
-          <h1>Dev jouney</h1>
+          <h1  id="journey">Dev jouney</h1>
             <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
               <div class="card-body darkBackground">
                 <h4>Ampersand</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Junior developer</p>
               </div>
             </div>
             <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
               <div class="card-body darkBackground">
                 <h4>Freelance Developers</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">While studying at university I developed and delivered bespoke websites for several small businesses,
+                  devised custom WordPress themes to match client briefs and implemented payment and booking systems through current WordPress sites.
+                </p>
               </div>
             </div>
             <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
               <div class="card-body darkBackground">
                 <h4>Apprentice Developer</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Pitched and presented prototype website designs and functionality to clients.
+                  Created and implemented designs from client briefs and managed projects to completion. Also managed two apprentice developers to deliver numerous projects.
+                </p>
               </div>
             </div>
             <div class="card darkBackground" data-anijs="if: scroll, on: window, do: flipInX animated, before: $scrollReveal repeat">
